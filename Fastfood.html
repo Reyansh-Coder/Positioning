@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fast Food Delight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+        /* Opacity Section */
+        .opacity-section {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .opacity-card {
+            background-color: orangered;
+            padding: 15px;
+            color: white;
+            width: 200px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .opacity-low {
+            opacity: 0.1;
+        }
+
+        .opacity-medium {
+            opacity: 0.5;
+        }
+
+        .opacity-high {
+            opacity: 0.9;
+        }
+
+        /* Positioning Section */
+        .position-section {
+            padding: 20px;
+        }
+
+        .position-box {
+            padding: 10px;
+            width: 200px;
+            color: white;
+        }
+
+        .relative {
+            position: relative;
+            left: 50px;
+            background-color: #ffa500;
+            border: 2px solid black;
+        }
+
+        .absolute {
+            position: absolute;
+            left: 100px;
+            top: 50px;
+            background-color: #ff4500;
+            border: 2px solid black;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 150px;
+            right: 20px;
+            background-color: #008b8b;
+            border: 2px solid black;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            background-color: #4682b4;
+            border: 2px solid black;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Fast Food Delight</h1>
+        <p>Your go-to guide for fast food favorites!</p>
+    </header>
+   <!-- Opacity Section -->
+    <section id="opacity">
+        <h2 style="text-align: center; padding: 10px;">Origin Of Food Items</h2>
+        <div class="opacity-section">
+            <div class="opacity-card opacity-low">
+                <p>Burger</p>
+                <p>Hamburg, Germany</p>
+            </div>
+            <div class="opacity-card opacity-medium">
+                <p>Pizza</p>
+                <p>Naples, Italy</p>
+            </div>
+            <div class="opacity-card opacity-high">
+                <p>Fries</p>
+                <p>Belgium or France</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Positioning Section -->
+    <section id="positioning" class="position-section">
+        <h2 style="text-align: center; padding: 10px;">Positioning of Fast Food Elements</h2>
+        <div class="position-box relative">
+            <p>McDonald's is the largest fast-food chain in the world, serving over 69 million customers daily across more than 100
+            countries.</p>
+        </div>
+        <div class="position-box absolute">
+            <p>A Pizza Hut delivered a pizza to space in 2001, sending a vacuum-sealed pie to Russian cosmonauts aboard the International
+            Space Station.</p>
+        </div>
+        <div class="position-box sticky">
+            <p>French fries are the most popular fast-food item, with billions of pounds consumed globally each year.</p>
+        </div>
+        <div class="position-box fixed">
+            <p>The first drive-thru restaurant was Red's Giant Hamburg in Springfield, Missouri, which opened in 1947.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made By Reyansh Garg</p>
+    </footer>
+</body>
+
+</html>
